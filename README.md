@@ -42,4 +42,49 @@ Entrada:
 
 Salida:
 
-3`
+3
+
+
+### Ejercicio 2.
+Te dan un mapa de un laberinto y tu tarea es encontrar un camino de principio a fin. Puedes
+caminar hacia la izquierda, derecha, arriba y abajo.
+
+**Entrada**
+
+La primera línea de entrada tiene dos números enteros.nortenortenorteymetrometrometro: la
+altura y el ancho del mapa.
+
+Entonces hay líneas de caracteres que describen el laberinto. Cada carácter es𝑛 𝑚
+.(suelo), #(pared), A(inicio) o B(final). Hay exactamente un A y un B en la entrada.
+
+**Salida**
+
+Primero imprima "SÍ", si hay una ruta, y "NO" en caso contrario.
+
+Si hay una ruta, imprima la longitud de la ruta más corta y su descripción como una cadena
+que consta de caracteres L(izquierda), R(derecha), U(arriba) y D(abajo). Puede imprimir
+cualquier solución válida.
+
+**Ejemplo**
+
+Entrada:
+
+5 8
+
+########
+
+#.A#...#
+
+#.##.#B#
+
+#......#
+
+########
+
+Salida:
+
+SÍ
+
+9
+
+LDDRRRRRU
