@@ -29,7 +29,7 @@ n, m = map(int, input().split())
 grid = [list(input()) for _ in range(n)]
 
 
-inicio, final = None, None
+a, b = None, None
 
 for i in range(n):
     for j in range(m):
